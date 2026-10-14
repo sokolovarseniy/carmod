@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме - Соколов Арсений Максимович</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #0056b3;
+            margin-right: 30px;
+            background-color: #ddd;
+        }
+
+        .header-info h1 {
+            margin: 0 0 10px 0;
+            color: #0056b3;
+            font-size: 28px;
+        }
+
+        .header-info p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #555;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #0056b3;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .contact-info {
+            background-color: #f0f7ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .contact-item {
+            margin-right: 20px;
+            font-weight: 500;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #0056b3;
+            color: #777;
+            font-size: 14px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .photo {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+            .contact-info {
+                flex-direction: column;
+            }
+            .contact-item {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        
+        <!-- 1. ФОТО и ФИО -->
+        <header>
+            <img src="z.jpg" alt="Фото Соколова Арсения" class="photo">
+            <div class="header-info">
+                <h1>Соколов Арсений Максимович</h1>
+                <p><strong>Желаемая должность:</strong> Разработчик Web и мультимедийных приложений</p>
+            </div>
+        </header>
+
+        <!-- 2. ЛИЧНЫЕ ДАННЫЕ -->
+        <section>
+            <h2>Личные данные</h2>
+            <div class="contact-info">
+                <span class="contact-item">📅 Возраст: 18 лет</span>
+                <span class="contact-item">📞 Телефон: +7 911 516-76-98</span>
+                <span class="contact-item">✉️ Email: Ars.mirage29@yandex.ru</span>
+            </div>
+        </section>
+
+        <!-- 3. ЦЕЛЬ РЕЗЮМЕ -->
+        <section>
+            <h2>Цель резюме</h2>
+            <p>Получение должности <strong>Разработчика web и мультимедийных приложений</strong> для применения и развития профессиональных навыков в создании качественного программного обеспечения и мультимедийного контента.</p>
+        </section>
+
+        <!-- 4. ОПЫТ РАБОТЫ -->
+        <section>
+            <h2>Опыт работы</h2>
+            <ul>
+                <li>
+                    <strong>Практика (1 месяц)</strong> — IT-отдел компании "Луч"<br>
+                    <em>Обязанности:</em> Знакомство с рабочими процессами, помощь в верстке, изучение внутренней документации.
+                </li>
+                <li>
+                    <strong>Практика (2 месяца)</strong> — IT-отдел компании "Луч"<br>
+                    <em>Обязанности:</em> Участие в разработке интерфейсов, работа с базами данных, тестирование функционала, работа в команде над мультимедийными проектами.
+                </li>
+            </ul>
+        </section>
+
+        <!-- 5. ПРОФЕССИОНАЛЬНЫЕ НАВЫКИ -->
+        <section>
+            <h2>Профессиональные навыки</h2>
+            <ul>
+                <li>HTML5, CSS3 (включая Flexbox и Grid)</li>
+                <li>Основы JavaScript</li>
+                <li>Работа с графическими редакторами (Figma, Photoshop)</li>
+                <li>Основы верстки и адаптивного дизайна</li>
+                <li>Базовые знания работы с Git</li>
+            </ul>
+        </section>
+
+        <!-- 6. ОБРАЗОВАНИЕ -->
+        <section>
+            <h2>Образование</h2>
+            <p>
+                <strong>АПОУ ВО ВКСиИТ</strong><br>
+                Специальность: Разработчик web и мультимедийных приложений<br>
+                Год окончания: 2027
+            </p>
+        </section>
+
+        <!-- 7. ЛИЧНЫЕ КАЧЕСТВА -->
+        <section>
+            <h2>Личные качества</h2>
+            <ul>
+                <li>Ответственность и пунктуальность</li>
+                <li>Умение работать в команде</li>
+                <li>Быстрая обучаемость и желание развиваться</li>
+                <li>Усидчивость и внимание к деталям</li>
+            </ul>
+        </section>
+
+        <!-- ПОДВАЛ -->
+        <footer>
+            <p>© 2026 Соколов Арсений Максимович. Все права защищены.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
